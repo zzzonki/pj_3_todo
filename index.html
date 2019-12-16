@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <div class="hero is-fullheight is-centered page_style">
+        <div class="container">
+            <div class="todo">
+                <h1 class="is-size-2 label has-text-white has-text-centered">ToDo Manager</h1>
+                <div class="enter_data">
+                    <select name="important" id="important" class="select is-size-5">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <input type="text" name="data" placeholder="Добавить задание" class="input is-primary is-medium">
+                    <div class="button_plus has-background-warning"> <span class="icon-is-large">
+                        <i class="fa fa-plus"></i>
+                    </span> </div>
+                </div>
+                <div class="deals">
+                    <!-- Сюда будут рисоваться задачи -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

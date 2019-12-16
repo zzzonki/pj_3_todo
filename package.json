@@ -1,0 +1,21 @@
+{
+  "name": "pj_3_todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "animate.css": "^3.7.2",
+    "bulma": "^0.8.0",
+    "font-awesome": "^4.7.0",
+    "webpack": "^4.41.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

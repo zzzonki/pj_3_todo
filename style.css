@@ -1,0 +1,33 @@
+.motSpeech{
+    margin-bottom: 1em;
+    display: block;
+    text-align: center;
+    animation-duration: 5s;
+}
+
+.enter_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.button_plus{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 2em;
+    transition: all 0.5s;
+    width: 75px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_plus i{
+    font-size: 22px;
+}
+.button_plus:hover{
+    box-shadow: 2px 3px 5px black;
+}
+.select{
+    margin-right: 1em;
+}
